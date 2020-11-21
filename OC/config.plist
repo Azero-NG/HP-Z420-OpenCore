@@ -908,7 +908,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>0000000000000</string>
+			<string>F5K329207GUFHDD1H</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
@@ -918,11 +918,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>MacPro6,1</string>
 			<key>SystemSerialNumber</key>
-			<string>000000000</string>
+			<string>F5KL30J6F9VM</string>
 			<key>SystemUUID</key>
-			<string>00000000</string>
+			<string>88704E6B-1EA5-45FC-83F9-700AB4763661</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
