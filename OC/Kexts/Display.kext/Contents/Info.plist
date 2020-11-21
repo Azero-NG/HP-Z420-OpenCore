@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Copyright (C) 2013 AnV Software</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.AnV.Software.driver.AppleMonitor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Display Injector</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>9.9.9</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Monitor Apple ID Injection</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>DisplayProductID</key>
+			<integer>41082</integer>
+			<key>DisplayVendorID</key>
+			<integer>4268</integer>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleDisplay</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>AppleDisplayType</key>
+				<integer>2</integer>
+				<key>AppleSense</key>
+				<integer>1854</integer>
+				<key>DisplayProductID</key>
+				<integer>37430</integer>
+				<key>DisplayProductName</key>
+				<string>DELL U2412M</string>
+				<key>DisplayVendorID</key>
+				<integer>1552</integer>
+				<key>IODisplayConnectFlags</key>
+				<data>
+				hEEAAA==
+				</data>
+				<key>IODisplayEDID</key>
+				<data>
+				AP///////wAGEDaSACINAgMTAQSlNCB4Jm6hp1VMnSUO
+				UFShCACBQIGAqUCzANHAAQEBAQEBKDyAoHCwI0AwIDYA
+				BkQhAAAaAAAA/wAyQTkwMzQxWjBLMAogAAAA/ABMRUQg
+				Q2luZW1hCiAgAAAA/QAyPR5TEQAKICAgICAgAOg=
+				</data>
+				<key>IODisplayPrefsKey</key>
+				<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/NPE2@2/IOPP/GFX0@0/ATY,AMD,RadeonFramebuffer@4/AMDFramebufferVIB/display0/AppleDisplay-610-9236</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
