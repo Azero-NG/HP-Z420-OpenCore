@@ -788,17 +788,17 @@
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>2147483714</integer>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>65</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -915,7 +915,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>npci=0x3000</string>
+				<string>npci=0x3000 -v</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
