@@ -8,11 +8,35 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>My custom DSDT</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>DSDT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>My custom SSDT</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>My custom DSDT</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>My custom DSDT</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-UIAC-ALL.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
