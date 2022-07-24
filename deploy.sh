@@ -1,6 +1,3 @@
-if ! mount|grep -q disk0s1;
-then
-    sudo diskutil mount /dev/disk0s1
-fi
 rm -rf /Volumes/EFI/*
+find . -name ".DS_Store" -delete
 cp -r EFI /Volumes/EFI/
