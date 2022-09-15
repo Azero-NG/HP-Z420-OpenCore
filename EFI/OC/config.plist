@@ -230,12 +230,12 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,27,0</string>
+				<key>alc-layout-id</key>
+				<data>CwAAAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>model</key>
 				<string>C600/X79 series chipset High Definition Audio Controller</string>
-				<key>alc-layout-id</key>
-				<data>CwAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -697,9 +697,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
@@ -711,7 +711,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
